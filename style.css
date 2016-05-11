@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+a, a:hover, a:visited, a:link {color:inherit; text-decoration:none;}
+
+iframe {
+	align-content: center;
+	align-self: center;
+	width: 100%;
+	margin-bottom: 300px;
+}
+/*Pictures*/
+
+table { 
+	width:100%;
+	align-content: center;
+	align-items: center;
+	vertical-align: middle;
+}
+
+td {
+	vertical-align: middle;
+	align-content: center;
+	width: 300px;
+	height: 300px;
+}
+
+tr {
+	padding: 15px;
+}
+
+h3 {
+	font-family: 'Cabin';
+	font-size: 20px;
+}
+
+img /*fix in photoshop*/
+ 
+{ width:200px;
+     height:200px;}
+	
+/*Footer*/
+footer {
+	text-align:center;
+	color:#ccc;
+	height:120px;
+	padding:10px;
+	font-size:1em;
+	margin-top:10em;
+}
+
+/*Lists*/
+ul { list-style-type:none;
+color:#3f7f7c;}
+ol { list-style-type:decimal;
+	list-style-position:inside;
+	text-align:center;
+	}
+	
+	.group:before,
+.group:after {
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+}
+
+#section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+ border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+#list2 {
+  width: 500px;
+  margin: 20px auto;
+}
+ 
+
+
+	/*Search*/
+ul { list-style-type:none;
+color:#3f7f7c;}
+ol { list-style-type:decimal;
+	list-style-position:inside;
+	text-align:center;
+	}
+	
+	.group:before,
+.group:after {
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+}
+
+#section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+ border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+#list2 {
+  width: 500px;
+  margin: 20px auto;
+}
+ 
+
+
+
+  
+
+/*Navigation HOme */
+.secret {
+    display: none;
+    height:30px;
+    width:290px;
+    margin-left:10px;
+	font-family: 'Cabin';
+	font-size: 20px;
+	
+}
+
+a:hover + .secret {
+    display: block;
+}
